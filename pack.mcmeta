@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": {
+            "translate": "vulkanmod.resource_pack.unofficial",
+            "fallback": "Unofficial translations for VulkanMod"
+        },
+        "supported_formats": [15, 34]
+    }
+}

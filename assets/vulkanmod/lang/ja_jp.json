@@ -1,0 +1,40 @@
+{
+  "vulkanmod.options.unknown": "不明",
+
+  "vulkanmod.options.pages.video": "ビデオ設定",
+  "vulkanmod.options.pages.graphics": "画質",
+  "vulkanmod.options.pages.optimizations": "最適化",
+  "vulkanmod.options.pages.other": "その他の設定",
+
+  "vulkanmod.options.buttons.apply": "適用する",
+  "vulkanmod.options.buttons.kofi": "開発者を支援する",
+
+  "vulkanmod.options.advCulling": "チャンク・カリング",
+  "vulkanmod.options.advCulling.aggressive": "積極的",
+  "vulkanmod.options.advCulling.conservative": "消極的",
+  "vulkanmod.options.advCulling.normal": "通常",
+  "vulkanmod.options.advCulling.tooltip": "見えないチャンクの描写を減らすことでパフォーマンスを向上させます。",
+
+  "vulkanmod.options.ao.subBlock": "オン(サブブロック)",
+  "vulkanmod.options.ao.subBlock.tooltip": "サブブロックに対してスムースライティングを有効にします。(実験的機能)",
+
+  "vulkanmod.options.deviceSelector": "GPU選択",
+  "vulkanmod.options.deviceSelector.auto": "自動",
+  "vulkanmod.options.deviceSelector.tooltip": "現在のGPU",
+
+  "vulkanmod.options.entityCulling": "エンティティ・カリング",
+  "vulkanmod.options.entityCulling.tooltip": "見えないエンティティの処理を減らしてパフォーマンスを向上させます。",
+
+  "vulkanmod.options.frameQueue": "描写待ちフレーム数",
+  "vulkanmod.options.frameQueue.tooltip": "値が高ければ高いほどフレームレートが安定しますが、入力遅延が増大します。",
+
+  "vulkanmod.options.indirectDraw": "間接描写",
+  "vulkanmod.options.indirectDraw.tooltip": "CPUの負荷を減らしパフォーマンスを向上させます。CPUの性能が低い場合はオンにしてください。",
+
+  "vulkanmod.options.refreshRate": "リフレッシュレート",
+
+  "vulkanmod.options.uniqueOpaqueLayer": "独特な不透明層",
+  "vulkanmod.options.uniqueOpaqueLayer.tooltip": "パフォーマンスを向上させるために不透明な地形に対して独特な描写層を用います。",
+
+  "vulkanmod.options.windowedFullscreen": "フルスクリーンウィンドウ"
+}
