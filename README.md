@@ -1,19 +1,18 @@
-# Unofficial Translation for VulkanMod
-This repository is unofficial translations for VulkanMod which is the mod tdesigned for gaining more performance.
+# <a href="https://github.com/scully06/vulkanmod-translations"> <img src="VulkanMod Translations/pack.png" width="30" height="30"/> </a> Unofficial Translations for VulkanMod 
+This repository hosts unofficial translations for [VulkanMod](https://github.com/xCollateral/VulkanMod).
 
 ## Installation
-This is resource pack for VulkanMod. So you can download and install like any other resource packs.
-Please use the 3rd party launchers if you want to get the latest resource pack all the time.
+All translations in this repository are available as a resource pack, which you can install like any other resource pack. Just copy it into your resourcepacks folder and you're all set!
 
 ## Translating
-If you want to contribute translation, you should do pull-request. By submitting translations, you are agreeing to have them licensed under the LGPL-3.0.
+If you want to contribute translation, you can fork the repo and then create pull request with translation.
 
 ## FAQ
 
-### Can I include this in my CurseForge/Modrinth/packwiz/whatever modpack?
+### Can I include this in my modpack?
 
-Yes, you can do it without any permitting under LGPL-3.0.
+Yes, you can do it without any permission.
 
-### Current translation is wrong or I don't know how to translate it
+### Translation is wrong or i need help
 
-please make the issues for the problem.
+Please open [new issue](https://github.com/scully06/vulkanmod-translations/issues/new).
