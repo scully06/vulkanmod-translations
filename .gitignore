@@ -4,5 +4,8 @@
 
 !LICENSE
 
+!.github/
+!.github/**
+
 !VulkanMod Translations/
 !VulkanMod Translations/**
