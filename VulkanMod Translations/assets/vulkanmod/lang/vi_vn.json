@@ -1,9 +1,9 @@
 {
-  "vulkanmod.options.unknown": "Unknown",
+  "vulkanmod.options.unknown": "Không xác định",
 
   "vulkanmod.options.pages.video": "Hình ảnh",
   "vulkanmod.options.pages.graphics": "Đồ họa",
-  "vulkanmod.options.pages.optimizations": "Tối ưu",
+  "vulkanmod.options.pages.optimizations": "Tối ưu hóa",
   "vulkanmod.options.pages.other": "Khác",
 
   "vulkanmod.options.buttons.apply": "Áp dụng",
@@ -15,8 +15,8 @@
   "vulkanmod.options.advCulling.normal": "Bình thường",
   "vulkanmod.options.advCulling.tooltip": "Sử dụng thuật toán loại bỏ có thể cải thiện hiệu suất bằng cách giảm số lượng phần đoạn không hiển thị được hiển thị.",
 
-  "vulkanmod.options.ao.subBlock": "ON (Sub-block)",
-  "vulkanmod.options.ao.subBlock.tooltip": "ON (Sub-block): Cho phép chiếu sáng mượt mà cho khối không đầy đủ (đang thử nghiệm).",
+  "vulkanmod.options.ao.subBlock": "BẬT (Khối phụ)",
+  "vulkanmod.options.ao.subBlock.tooltip": "BẬT (Khối phụ): Cho phép chiếu sáng mượt mà cho khối không đầy đủ (đang thử nghiệm).",
 
   "vulkanmod.options.deviceSelector": "Chọn thiết bị",
   "vulkanmod.options.deviceSelector.auto": "Tự động",
@@ -28,7 +28,7 @@
   "vulkanmod.options.frameQueue": "Hiển thị kích thước hàng đợi",
   "vulkanmod.options.frameQueue.tooltip": "Giá trị cao hơn có thể giúp ổn định thời gian kết xuất khung hình nhưng sẽ làm tăng độ trễ đầu vào.",
 
-  "vulkanmod.options.indirectDraw": "Draw Gián tiếp",
+  "vulkanmod.options.indirectDraw": "Vẽ gián tiếp",
   "vulkanmod.options.indirectDraw.tooltip": "Giảm sử dụng CPU nhưng tăng sử dụng GPU. Kích hoạt nó có thể giúp ích trong các máy giới hạn CPU.",
 
   "vulkanmod.options.refreshRate": "Tốc độ làm mới",
