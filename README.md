@@ -5,7 +5,7 @@
 This repository hosts unofficial translations for [VulkanMod](https://github.com/xCollateral/VulkanMod), a fabric mod that introduces a brand new **Vulkan** based voxel rendering engine to **Minecraft Java**.
 
 ## Installation
-All translations in this repository are available as a resource pack, which you can install like any other resource pack. Just drop it into your `resourcepacks` folder and you're all set!
+All translations in this repository are available as a resource pack, which you can install like any other resource pack. Just drop [latest release](https://github.com/scully06/vulkanmod-translations/releases/latest) into your `resourcepacks` folder and you're all set!
 
 ## Translating
 If you want to contribute translation, you can fork the repo and then create pull request with translation.
