@@ -1,0 +1,40 @@
+{
+  "vulkanmod.options.unknown": "Non noto",
+
+  "vulkanmod.options.pages.video": "Video",
+  "vulkanmod.options.pages.graphics": "Grafica",
+  "vulkanmod.options.pages.optimizations": "Ottimizzazioni",
+  "vulkanmod.options.pages.other": "Altro",
+
+  "vulkanmod.options.buttons.apply": "Applica",
+  "vulkanmod.options.buttons.kofi": "Supportami",
+
+  "vulkanmod.options.advCulling": "Culling dei Chunk Avanzato",
+  "vulkanmod.options.advCulling.aggressive": "Aggressivo",
+  "vulkanmod.options.advCulling.conservative": "Moderato",
+  "vulkanmod.options.advCulling.normal": "Normale",
+  "vulkanmod.options.advCulling.tooltip": "Utilizza un algoritmo di culling che potrebbe migliorare le prestazioni riducendo il numero di sezioni di chunk non visibili renderizzate.",
+
+  "vulkanmod.options.ao.subBlock": "ON (Blocchi parziali)",
+  "vulkanmod.options.ao.subBlock.tooltip": "ON (Blocchi parziali): Abilita la luce offuscata per blocchi parziali (sperimentale).",
+
+  "vulkanmod.options.deviceSelector": "Selettore dispositivi",
+  "vulkanmod.options.deviceSelector.auto": "Automatico",
+  "vulkanmod.options.deviceSelector.tooltip": "Dispositivo attuale",
+
+  "vulkanmod.options.entityCulling": "Culling delle entità",
+  "vulkanmod.options.entityCulling.tooltip": "Abilita il culling per le entità in sezioni non visibili",
+
+  "vulkanmod.options.frameQueue": "Capacità della coda di rendering",
+  "vulkanmod.options.frameQueue.tooltip": "Valori più alti possono stabilizzare il frametime ma aumenteranno la latenza degli input.",
+
+  "vulkanmod.options.indirectDraw": "Disegno Indiretto",
+  "vulkanmod.options.indirectDraw.tooltip": "Riduce l'overhead della CPU ma aumenta l'overhead della GPU. Può aiutare in sistemi con una CPU debole.",
+
+  "vulkanmod.options.refreshRate": "Frequenza di Aggiornamento",
+
+  "vulkanmod.options.uniqueOpaqueLayer": "Layer esclusivo per blocchi opachi",
+  "vulkanmod.options.uniqueOpaqueLayer.tooltip": "Usa un layer di rendering esclusivo per i blocchi opachi per aumentare le prestazioni.",
+
+  "vulkanmod.options.windowedFullscreen": "Finestra senza bordi"
+}
