@@ -1,0 +1,8 @@
+*
+
+!.gitignore
+
+!LICENSE
+
+!VulkanMod Translations/
+!VulkanMod Translations/**
