@@ -25,7 +25,7 @@
   "vulkanmod.options.entityCulling": "Penyembunyi Entity",
   "vulkanmod.options.entityCulling.tooltip": "Mengaktifkan penyembunyi untuk entity di bagian yang tidak dapat dilihat.",
 
-  "vulkanmod.options.frameQueue": "Render queue size",
+  "vulkanmod.options.frameQueue": "Ukuran Antrian Render",
   "vulkanmod.options.frameQueue.tooltip": "Nilai lebih besar mungkin dapat mengstabilkan frametime tetapi dapat memperbesar input lag.",
 
   "vulkanmod.options.indirectDraw": "Penggambar Tidak Langsung",
