@@ -1,0 +1,40 @@
+{
+  "vulkanmod.options.unknown": "Tidak Diketahui",
+
+  "vulkanmod.options.pages.video": "Video",
+  "vulkanmod.options.pages.graphics": "Grafis",
+  "vulkanmod.options.pages.optimizations": "Optimisasi",
+  "vulkanmod.options.pages.other": "Yang Lain",
+
+  "vulkanmod.options.buttons.apply": "Terapkan",
+  "vulkanmod.options.buttons.kofi": "Dukung saya",
+
+  "vulkanmod.options.advCulling": "Penyembunyi Chunk Tingkat Atas",
+  "vulkanmod.options.advCulling.aggressive": "Agresif",
+  "vulkanmod.options.advCulling.conservative": "Konservatif",
+  "vulkanmod.options.advCulling.normal": "Normal",
+  "vulkanmod.options.advCulling.tooltip": "Gunakan algoritma penyembunyi yang mungkin dapat memperbaik performa dengan memperkecil nomor bagian chunk yang tidak dapat dilihat.",
+
+  "vulkanmod.options.ao.subBlock": "ON (Blok tidak penuh)",
+  "vulkanmod.options.ao.subBlock.tooltip": "ON (Blok tidak penuh): Mengaktifkan cahaya halus untuk blok yang tidak penuh, e.g. tangga (experimental).",
+
+  "vulkanmod.options.deviceSelector": "Pemilih Perangkat",
+  "vulkanmod.options.deviceSelector.auto": "Otomatis",
+  "vulkanmod.options.deviceSelector.tooltip": "Perangkat yang terpakai sekarang",
+
+  "vulkanmod.options.entityCulling": "Penyembunyi Entity",
+  "vulkanmod.options.entityCulling.tooltip": "Mengaktifkan penyembunyi untuk entity di bagian yang tidak dapat dilihat.",
+
+  "vulkanmod.options.frameQueue": "Render queue size",
+  "vulkanmod.options.frameQueue.tooltip": "Nilai lebih besar mungkin dapat mengstabilkan frametime tetapi dapat memperbesar input lag.",
+
+  "vulkanmod.options.indirectDraw": "Penggambar Tidak Langsung",
+  "vulkanmod.options.indirectDraw.tooltip": "mengurangi overhead CPU tetapi meningkatkan overhead GPU. Mengaktifkanya dapat membantu dalam sistem CPU terbatas.",
+
+  "vulkanmod.options.refreshRate": "Rata-rata Penyegar",
+
+  "vulkanmod.options.uniqueOpaqueLayer": "Lapisan Buram Unik",
+  "vulkanmod.options.uniqueOpaqueLayer.tooltip": "Menggunakan lapisan render yang unik untuk medan yang buram agar dapat memperbaik performa.",
+
+  "vulkanmod.options.windowedFullscreen": "Layar Penuh Berjendela"
+}
