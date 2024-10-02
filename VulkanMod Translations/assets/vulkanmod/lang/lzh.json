@@ -1,0 +1,40 @@
+{
+    "vulkanmod.options.unknown": "未识",
+  
+    "vulkanmod.options.pages.video": "视像",
+    "vulkanmod.options.pages.graphics": "图绘",
+    "vulkanmod.options.pages.optimizations": "善化",
+    "vulkanmod.options.pages.other": "其他",
+  
+    "vulkanmod.options.buttons.apply": "施用",
+    "vulkanmod.options.buttons.kofi": "资助",
+  
+    "vulkanmod.options.advCulling": "高阶区块删去",
+    "vulkanmod.options.advCulling.aggressive": "益多",
+    "vulkanmod.options.advCulling.conservative": "益少",
+    "vulkanmod.options.advCulling.normal": "中庸",
+    "vulkanmod.options.advCulling.tooltip": "用删去算法，能减外可视区之区块绘制，以提升性能。",
+  
+    "vulkanmod.options.ao.subBlock": "启之（不全方块）",
+    "vulkanmod.options.ao.subBlock.tooltip": "启之（不全方块）：为不全方块启平滑光（试功能）。",
+  
+    "vulkanmod.options.deviceSelector": "器物选者",
+    "vulkanmod.options.deviceSelector.auto": "自通",
+    "vulkanmod.options.deviceSelector.tooltip": "现用器物",
+  
+    "vulkanmod.options.entityCulling": "实体删去",
+    "vulkanmod.options.entityCulling.tooltip": "删去不可视区之实体。",
+  
+    "vulkanmod.options.frameQueue": "绘列大小",
+    "vulkanmod.options.frameQueue.tooltip": "大数值或助稳帧时，但增输入之迟。",
+  
+    "vulkanmod.options.indirectDraw": "间接绘之",
+    "vulkanmod.options.indirectDraw.tooltip": "以增GPU之费为代，减CPU之费。适CPU为系统短者。",
+  
+    "vulkanmod.options.refreshRate": "更新率",
+  
+    "vulkanmod.options.uniqueOpaqueLayer": "独立不透明层",
+    "vulkanmod.options.uniqueOpaqueLayer.tooltip": "绘不透明地形，用独立绘层，以提升性能。",
+  
+    "vulkanmod.options.windowedFullscreen": "窗式全屏"
+  }  
