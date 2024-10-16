@@ -21,9 +21,9 @@
   "vulkanmod.options.frameQueue": "表示待ちフレーム数",
   "vulkanmod.options.frameQueue.tooltip": "値が高ければ高いほどフレームレートが安定しますが、入力遅延が増大します。",
   "vulkanmod.options.indirectDraw": "間接的な処理",
-  "vulkanmod.options.indirectDraw.tooltip": "CPUの負荷を減らしパフォーマンスを向上させますが、GPUの負荷が増加します。CPUの性能が低い場合に効果的です。",
+  "vulkanmod.options.indirectDraw.tooltip": "CPUの負荷を減らしパフォーマンスを向上させますが、GPUの負荷が増加します。CPUの性能が低い場合により効果的です。",
   "vulkanmod.options.refreshRate": "リフレッシュレート",
-  "vulkanmod.options.uniqueOpaqueLayer": "独自の不透明な層",
-  "vulkanmod.options.uniqueOpaqueLayer.tooltip": "パフォーマンスを向上させるために不透明な地形に対して独自の不透明な層を使用します。",
+  "vulkanmod.options.uniqueOpaqueLayer": "地形レンダリングの最適化",
+  "vulkanmod.options.uniqueOpaqueLayer.tooltip": "不透明な地形と透明な地形での複数の描画方法を統合し減らすことで動作を最適化します。",
   "vulkanmod.options.windowedFullscreen": "フルスクリーンウィンドウ"
 }
