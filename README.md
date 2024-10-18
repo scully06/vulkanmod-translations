@@ -18,11 +18,11 @@ Yes, you can do it without any permission.
 ### Translation is wrong or I need help
 Please open [new issue](https://github.com/scully06/vulkanmod-translations/issues/new).
 
-## VulkanMod and Translations links
+## Links
 <table>
     <tr>
-      <th> Discord server</th>
-      <th> Ko-Fi</th>
+      <th> VulkanMod Discord server</th>
+      <th> VulkanMod Ko-Fi</th>
       <th> Modrinth</th>
     </tr>
   <tr>
