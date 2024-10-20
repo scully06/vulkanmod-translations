@@ -33,8 +33,10 @@ Please open [new issue](https://github.com/scully06/vulkanmod-translations/issue
      </td>
     <td>
         <a href="https://ko-fi.com/V7V7CHHJV">
+            <div align="center">
             <img alt="Static Badge" align="top" src="https://img.shields.io/badge/KoFi-%23ff5e5b?logo=ko-fi&logoColor=%23FFFFFF&link=https%3A%2F%2Fko-fi.com%2FV7V7CHHJV">
-        </a>
+            </div>
+            </a>
     </td>
       <td>
         <a href="https://modrinth.com/resourcepack/vulkanmod-translations">
