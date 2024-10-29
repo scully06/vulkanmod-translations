@@ -36,6 +36,9 @@
   "vulkanmod.options.uniqueOpaqueLayer": "独立不透明层",
   "vulkanmod.options.uniqueOpaqueLayer.tooltip": "渲染不透明地形时使用独立的渲染层，从而提高性能。",
 
+  "vulkanmod.options.backfaceCulling": "不可见面剔除",
+  "vulkanmod.options.backfaceCulling.tooltip": "在CPU上剔除不可见的方块面，以提高GPU性能。为防止增加CPU负载，请启用间接绘制。",
+
   "vulkanmod.options.windowedFullscreen": "窗口化全屏"
 }
   
