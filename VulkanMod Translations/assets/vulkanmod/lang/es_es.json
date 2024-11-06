@@ -1,0 +1,43 @@
+{
+  "vulkanmod.options.unknown": "Desconocido",
+
+  "vulkanmod.options.pages.video": "Video",
+  "vulkanmod.options.pages.graphics": "Gráficos",
+  "vulkanmod.options.pages.optimizations": "Optimizaciones",
+  "vulkanmod.options.pages.other": "Otros",
+
+  "vulkanmod.options.buttons.apply": "Aplicar",
+  "vulkanmod.options.buttons.kofi": "Apóyame",
+
+  "vulkanmod.options.advCulling": "Culling Avanzado de Chunks",
+  "vulkanmod.options.advCulling.aggressive": "Agresivo",
+  "vulkanmod.options.advCulling.conservative": "Conservador",
+  "vulkanmod.options.advCulling.normal": "Normal",
+  "vulkanmod.options.advCulling.tooltip": "Usa un algoritmo de culling que podría mejorar el rendimiento al reducir la cantidad de secciones de chunk no visibles renderizadas.",
+
+  "vulkanmod.options.ao.subBlock": "Activado (Sub-bloque)",
+  "vulkanmod.options.ao.subBlock.tooltip": "Activado (Sub-bloque): Habilita iluminación suave para bloques no completos (experimental).",
+
+  "vulkanmod.options.deviceSelector": "Selector de dispositivo",
+  "vulkanmod.options.deviceSelector.auto": "Automático",
+  "vulkanmod.options.deviceSelector.tooltip": "Dispositivo actual",
+
+  "vulkanmod.options.entityCulling": "Culling de Entidades",
+  "vulkanmod.options.entityCulling.tooltip": "Habilita el culling para entidades en secciones no visibles.",
+
+  "vulkanmod.options.frameQueue": "Tamaño de la cola de renderizado",
+  "vulkanmod.options.frameQueue.tooltip": "Valores más altos pueden ayudar a estabilizar el tiempo de fotogramas, pero aumentarán el retraso de entrada.",
+
+  "vulkanmod.options.backfaceCulling": "Culling de Caras Traseras",
+  "vulkanmod.options.backfaceCulling.tooltip": "Elimina caras de bloques no visibles en la CPU, mejorando el rendimiento de la GPU. Para evitar aumentar la carga de la CPU, habilita Dibujo Indirecto.",
+
+  "vulkanmod.options.indirectDraw": "Dibujo Indirecto",
+  "vulkanmod.options.indirectDraw.tooltip": "Reduce la carga en la CPU, pero aumenta la carga en la GPU. Habilitarlo puede ayudar en sistemas limitados por la CPU.",
+
+  "vulkanmod.options.refreshRate": "Frecuencia de Actualización",
+
+  "vulkanmod.options.uniqueOpaqueLayer": "Capa Opaca Única",
+  "vulkanmod.options.uniqueOpaqueLayer.tooltip": "Usa una capa de renderizado única para el terreno opaco para mejorar el rendimiento.",
+
+  "vulkanmod.options.windowedFullscreen": "Pantalla Completa en Ventana"
+}
