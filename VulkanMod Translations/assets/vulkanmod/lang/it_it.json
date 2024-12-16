@@ -28,8 +28,11 @@
   "vulkanmod.options.frameQueue": "Capacità della coda di rendering",
   "vulkanmod.options.frameQueue.tooltip": "Valori più alti possono stabilizzare il frametime ma aumenteranno la latenza degli input.",
 
+  "vulkanmod.options.backfaceCulling": "Culling delle faccie non visibili",
+  "vulkanmod.options.backfaceCulling.tooltip": "Esegue il culling su facce di blocchi non visibili usando la CPU, migliorando le prestazioni della GPU. Per evitare un grosso overhead sulla CPU, abilita il Disegno Indiretto.",
+
   "vulkanmod.options.indirectDraw": "Disegno Indiretto",
-  "vulkanmod.options.indirectDraw.tooltip": "Riduce l'overhead della CPU ma aumenta l'overhead della GPU. Può aiutare in sistemi con una CPU debole.",
+  "vulkanmod.options.indirectDraw.tooltip": "Riduce l'overhead della CPU ma aumenta l'overhead della GPU. Può essere utile in sistemi con una CPU debole.",
 
   "vulkanmod.options.refreshRate": "Frequenza di Aggiornamento",
 
