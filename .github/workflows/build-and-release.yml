@@ -1,30 +1,36 @@
 name: 'Manual Build and Release'
+
 on: [workflow_dispatch]
+
 permissions:
   contents: write
+
 jobs:
   version:
-      name: Bump Version
-      runs-on: ubuntu-latest
-      outputs:
-        tag: '${{ steps.bump.outputs.new_tag }}'
-        changelog: '${{ steps.bump.outputs.changelog }}'
-      steps:
-        - name: Checkout Repository
-          uses: actions/checkout@v3
-        - name: Get Latest Commit SHA
-          id: commit_sha
-          run: |
-            git fetch --depth=1 origin +refs/heads/${GITHUB_REF#refs/heads/}:refs/remotes/origin/${GITHUB_REF#refs/heads/}
-            echo "sha=$(git rev-parse origin/${GITHUB_REF#refs/heads/})" >> $GITHUB_OUTPUT
-        - name: Bump version and push tag
-          id: bump
-          uses: mathieudutour/github-tag-action@v6.1
-          with:
-              github_token: ${{ secrets.GITHUB_TOKEN }}
-              commit_sha: ${{ steps.commit_sha.outputs.sha }}
-              default_bump: minor
-              tag_prefix: v
+    name: Bump Version
+    runs-on: ubuntu-latest
+    outputs:
+      tag: '${{ steps.bump.outputs.new_tag }}'
+      changelog: '${{ steps.bump.outputs.changelog }}'
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      
+      - name: Get Latest Commit SHA
+        id: commit_sha
+        run: |
+          git fetch --depth=1 origin +refs/heads/${GITHUB_REF#refs/heads/}:refs/remotes/origin/${GITHUB_REF#refs/heads/}
+          echo "sha=$(git rev-parse origin/${GITHUB_REF#refs/heads/})" >> $GITHUB_OUTPUT
+      
+      - name: Bump version and push tag
+        id: bump
+        uses: mathieudutour/github-tag-action@v6.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_sha: ${{ steps.commit_sha.outputs.sha }}
+          default_bump: minor
+          tag_prefix: v
+
   publish:
     name: Build Resource Pack
     runs-on: ubuntu-latest
@@ -34,18 +40,23 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-            ref: '${{ needs.version.outputs.tag }}'
+          ref: '${{ needs.version.outputs.tag }}'
+      
       - name: Create Resource Pack File
         run: (cd VulkanMod\ Translations && zip -r "../VulkanMod_Translations.zip" *)
+      
       - name: Generate Checksum
         run: >-
-          sha1sum "VulkanMod_Translations.zip" | cut -d " " -f 1 >
-          "VulkanMod_Translations.zip.sha1"
+          sha1sum "VulkanMod_Translations.zip" | cut -d " " -f 1 > "VulkanMod_Translations.zip.sha1"
+      
       - name: Store Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Resource Pack
           path: VulkanMod_Translations.zip*
+          compression-level: 0  # No additional compression since ZIP is already compressed
+          retention-days: 90    # Optional: specify how long to keep the artifact
+      
       - name: Release on GitHub
         id: release-step
         uses: softprops/action-gh-release@v0.1.15
