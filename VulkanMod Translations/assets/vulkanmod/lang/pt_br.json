@@ -1,0 +1,43 @@
+{
+  "vulkanmod.options.unknown": "Desconhecido",
+
+  "vulkanmod.options.pages.video": "Vídeo",
+  "vulkanmod.options.pages.graphics": "Gráficos",
+  "vulkanmod.options.pages.optimizations": "Otimizações",
+  "vulkanmod.options.pages.other": "Outros",
+
+  "vulkanmod.options.buttons.apply": "Aplicar",
+  "vulkanmod.options.buttons.kofi": "Apoie-me",
+
+  "vulkanmod.options.advCulling": "Culling Avançado de Chunks",
+  "vulkanmod.options.advCulling.aggressive": "Agressivo",
+  "vulkanmod.options.advCulling.conservative": "Conservador",
+  "vulkanmod.options.advCulling.normal": "Normal",
+  "vulkanmod.options.advCulling.tooltip": "Usa um algoritmo de culling que pode melhorar o desempenho ao reduzir a quantidade de seções de chunk não visíveis renderizadas.",
+
+  "vulkanmod.options.ao.subBlock": "Ativado (Sub-bloco)",
+  "vulkanmod.options.ao.subBlock.tooltip": "Ativado (Sub-bloco): Habilita iluminação suave para blocos não completos (experimental).",
+
+  "vulkanmod.options.deviceSelector": "Seletor de dispositivo",
+  "vulkanmod.options.deviceSelector.auto": "Automático",
+  "vulkanmod.options.deviceSelector.tooltip": "Dispositivo atual",
+
+  "vulkanmod.options.entityCulling": "Culling de Entidades",
+  "vulkanmod.options.entityCulling.tooltip": "Habilita o culling para entidades em seções não visíveis.",
+
+  "vulkanmod.options.frameQueue": "Tamanho da fila de renderização",
+  "vulkanmod.options.frameQueue.tooltip": "Valores mais altos podem ajudar a estabilizar o tempo de quadro, mas aumentarão o atraso de entrada.",
+
+  "vulkanmod.options.backfaceCulling": "Culling de Faces Traseiras",
+  "vulkanmod.options.backfaceCulling.tooltip": "Elimina faces de blocos não visíveis na CPU, melhorando o desempenho da GPU. Para evitar aumentar a carga da CPU, habilite Desenho Indireto.",
+
+  "vulkanmod.options.indirectDraw": "Desenho Indireto",
+  "vulkanmod.options.indirectDraw.tooltip": "Reduz a carga na CPU, mas aumenta a carga na GPU. Habilitá-lo pode ajudar em sistemas limitados pela CPU.",
+
+  "vulkanmod.options.refreshRate": "Frequência de Atualização",
+
+  "vulkanmod.options.uniqueOpaqueLayer": "Camada Opaca Única",
+  "vulkanmod.options.uniqueOpaqueLayer.tooltip": "Usa uma camada de renderização única para o terreno opaco para melhorar o desempenho.",
+
+  "vulkanmod.options.windowedFullscreen": "Tela Cheia em Janela"
+}
