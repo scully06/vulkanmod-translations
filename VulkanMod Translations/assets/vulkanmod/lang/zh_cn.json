@@ -7,7 +7,7 @@
   "vulkanmod.options.pages.other": "其他",
 
   "vulkanmod.options.buttons.apply": "应用",
-  "vulkanmod.options.buttons.kofi": "赞助",
+  "vulkanmod.options.buttons.kofi": "赞助我",
 
   "vulkanmod.options.advCulling": "高级区块剔除",
   "vulkanmod.options.advCulling.aggressive": "更多",
@@ -28,17 +28,23 @@
   "vulkanmod.options.frameQueue": "渲染队列大小",
   "vulkanmod.options.frameQueue.tooltip": "较高的数值可能有助于稳定帧时间，但会增加输入延迟。",
 
+  "vulkanmod.options.backfaceCulling": "不可见面剔除",
+  "vulkanmod.options.backfaceCulling.tooltip": "在CPU上剔除不可见的方块面，以提高GPU性能。为防止增加CPU负载，请启用间接绘制。",
+
   "vulkanmod.options.indirectDraw": "间接绘制",
-  "vulkanmod.options.indirectDraw.tooltip": "以提高GPU开销为代价降低CPU开销。适合CPU是系统短板的情况。",
+  "vulkanmod.options.indirectDraw.tooltip": "以提高GPU开销为代价降低CPU开销。适合CPU是瓶颈的设备。",
 
   "vulkanmod.options.refreshRate": "刷新率",
 
   "vulkanmod.options.uniqueOpaqueLayer": "独立不透明层",
   "vulkanmod.options.uniqueOpaqueLayer.tooltip": "渲染不透明地形时使用独立的渲染层，从而提高性能。",
 
-  "vulkanmod.options.backfaceCulling": "不可见面剔除",
-  "vulkanmod.options.backfaceCulling.tooltip": "在CPU上剔除不可见的方块面，以提高GPU性能。为防止增加CPU负载，请启用间接绘制。",
+  "vulkanmod.options.windowMode": "窗口模式",
+  "vulkanmod.options.windowMode.windowed": "窗口化",
+  "vulkanmod.options.windowMode.windowedFullscreen": "窗口化全屏",
 
-  "vulkanmod.options.windowedFullscreen": "窗口化全屏"
+  "vulkanmod.options.builderThreads": "区块构建线程",
+  "vulkanmod.options.builderThreads.auto": "自动",
+
+  "vulkanmod.options.textureAnimations": "纹理动画"
 }
-  
